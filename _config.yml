@@ -2,8 +2,7 @@
 title: Samuel Lozano Iglesias
 email: samuloza@ucm.es
 baseurl: ""  # Déjalo vacío para GitHub Pages.
-url: "https://samuellozano.github.io"  # Sustituye con la URL real de tu blog.
-description: "Un espacio para compartir investigaciones y publicaciones."
+url: "https://samuellozanoiglesias.github.io"  # Sustituye con la URL real de tu blog.
 keywords: "science, investigation, mathematics, physics, machine learning, reinforcement learning, cooperative behaviour"
 skills: "AI Researcher - Mathematician - Physicist"
 meta_author: Samuel Lozano Iglesias
@@ -36,19 +35,14 @@ footer:
   copyright: © 2024 Samuel Lozano Iglesias
   location: Madrid, España
   social: Feel free to contact me!
-  credits: "Adapted by Samuel Lozano."
+  credits: "Univerisdad Complutense de Madrid"
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: linkedin
     url: https://www.linkedin.com/in/samuel-lozano-iglesias-202336200/
   - title: github
-    url: http://github.com/samuloza
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+    url: http://github.com/samuellozanoiglesias
 
 # Build settings
 markdown: kramdown
