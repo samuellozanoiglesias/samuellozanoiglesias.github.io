@@ -4,7 +4,7 @@ email: samuloza@ucm.es
 baseurl: ""  # Déjalo vacío para GitHub Pages.
 url: "https://samuellozanoiglesias.github.io"  # Sustituye con la URL real de tu blog.
 keywords: "science, investigation, mathematics, physics, machine learning, reinforcement learning, cooperative behaviour"
-skills: "AI Researcher - Mathematician - Physicist"
+skills: "ML Researcher - Mathematician - Physicist"
 meta_author: Samuel Lozano Iglesias
 
 # Google webmaster tools
