@@ -1,15 +1,16 @@
 <!-- Portfolio Grid Section -->
 <section id="portfolio">
-  <div class="container portfolio-flex-grid">
+  <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2>Portfolio</h2>
         <hr class="star-primary">
       </div>
     </div>
-    <div class="portfolio-flex-row">
+
+    <div class="row">
       {% for post in site.posts %}
-      <div class="portfolio-flex-item portfolio-item">
+      <!-- <div class="col-md-6 portfolio-item">
         <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
           <div class="caption">
             <div class="caption-content">
@@ -18,25 +19,25 @@
           </div>
           <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
         </a>
-      </div>
+      </div>-->
       {% endfor %}
 
       <!-- Matemáticas - Trabajo de Fin de Grado (Versión en español) -->
-      <div class="portfolio-flex-item portfolio-item">
-        <a href="https://github.com/samuellozanoiglesias/samuellozanoiglesias.github.io/raw/20e7c5beb21ab867383e8e09e559d51583ace2ce/img/portfolio/LOZANO_Samuel-TFG_Matematicas.pdf" target="_blank" class="portfolio-link">
+      <div class="col-md-6 portfolio-item">
+        <a href="https://raw.githubusercontent.com/samuellozanoiglesias/samuellozanoiglesias.github.io/main/img/portfolio/LOZANO_Samuel-TFG_Matematicas.pdf" target="_blank" class="portfolio-link">
           <div class="caption">
             <div class="caption-content">
               <i class="fa fa-download"></i>
               <p>Trabajo de Fin de Grado de Matemáticas (Español)</p>
             </div>
           </div>
-          <img src="https://github.com/samuellozanoiglesias/samuellozanoiglesias.github.io/raw/20e7c5beb21ab867383e8e09e559d51583ace2ce/img/portfolio/LOZANO_Samuel-TFG_Matematicas-Portada.png" class="img-responsive" alt="Trabajo de Fin de Grado de Matemáticas">
+          <img src="img/portfolio/LOZANO_Samuel-TFG_Matematicas-Portada.png" class="img-responsive" alt="TFG Matemáticas">
         </a>
       </div>
 
       <!-- TFG Mathematics (English) -->
-      <div class="portfolio-flex-item portfolio-item">
-        <a href="ruta-al-tfg-mathematics.pdf" target="_blank" class="portfolio-link">
+      <div class="col-md-6 portfolio-item">
+        <a href="https://raw.githubusercontent.com/samuellozanoiglesias/samuellozanoiglesias.github.io/main/img/portfolio/tfg-mathematics.pdf" target="_blank" class="portfolio-link">
           <div class="caption">
             <div class="caption-content">
               <i class="fa fa-file-pdf-o fa-3x"></i>
@@ -47,22 +48,22 @@
         </a>
       </div>
 
-      <!-- Física - Trabajo de Fin de Grado (Versión en español) -->
-      <div class="portfolio-flex-item portfolio-item">
-        <a href="https://github.com/samuellozanoiglesias/samuellozanoiglesias.github.io/blob/20e7c5beb21ab867383e8e09e559d51583ace2ce/img/portfolio/ETE31_Lozano_Iglesias_Samuel.pdf" target="_blank" class="portfolio-link">
+      <!-- Física - Trabajo de Fin de Grado (Español) -->
+      <div class="col-md-6 portfolio-item">
+        <a href="https://raw.githubusercontent.com/samuellozanoiglesias/samuellozanoiglesias.github.io/main/img/portfolio/ETE31_Lozano_Iglesias_Samuel.pdf" target="_blank" class="portfolio-link">
           <div class="caption">
             <div class="caption-content">
               <i class="fa fa-file-pdf-o fa-3x"></i>
               <p>Trabajo de Fin de Grado de Física (Español)</p>
             </div>
           </div>
-          <img src="https://github.com/samuellozanoiglesias/samuellozanoiglesias.github.io/blob/20e7c5beb21ab867383e8e09e559d51583ace2ce/img/portfolio/ETE31_Lozano_Iglesias_Samuel-Portada.png" class="img-responsive" alt="Trabajo de Fin de Grado de Física">
+          <img src="img/portfolio/ETE31_Lozano_Iglesias_Samuel-Portada.png" class="img-responsive" alt="TFG Física">
         </a>
       </div>
 
-      <!-- Physics - Final Bachelor Project (English version) -->
-      <div class="portfolio-flex-item portfolio-item">
-        <a href="ruta-al-tfg-mathematics.pdf" target="_blank" class="portfolio-link">
+      <!-- Physics - Final Bachelor Project (English) -->
+      <div class="col-md-6 portfolio-item">
+        <a href="https://raw.githubusercontent.com/samuellozanoiglesias/samuellozanoiglesias.github.io/main/img/portfolio/tfg-physics.pdf" target="_blank" class="portfolio-link">
           <div class="caption">
             <div class="caption-content">
               <i class="fa fa-file-pdf-o fa-3x"></i>
@@ -74,15 +75,15 @@
       </div>
 
       <!-- Póster Benasque -->
-      <div class="portfolio-flex-item portfolio-item">
-        <a href="https://github.com/samuellozanoiglesias/samuellozanoiglesias.github.io/blob/20e7c5beb21ab867383e8e09e559d51583ace2ce/img/portfolio/POSTER-Turbidity.pdf" target="_blank" class="portfolio-link">
+      <div class="col-md-6 portfolio-item">
+        <a href="https://raw.githubusercontent.com/samuellozanoiglesias/samuellozanoiglesias.github.io/main/img/portfolio/POSTER-Turbidity.pdf" target="_blank" class="portfolio-link">
           <div class="caption">
             <div class="caption-content">
               <i class="fa fa-file-pdf-o fa-3x"></i>
               <p>2nd Spanish Soft Matter 1 1/2 Day - Benasque (Poster)</p>
             </div>
           </div>
-          <img src="https://github.com/samuellozanoiglesias/samuellozanoiglesias.github.io/blob/20e7c5beb21ab867383e8e09e559d51583ace2ce/img/portfolio/Titulo_Poster_Benasque.pngg" class="img-responsive" alt="Poster Benasque">
+          <img src="img/portfolio/Titulo_Poster_Benasque.png" class="img-responsive" alt="Poster Benasque">
         </a>
       </div>
 
